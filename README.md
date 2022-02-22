@@ -2,11 +2,10 @@
 
 This template deploys an Azure Function Premium plan and integrates with vnet located in separated resource group
 
-## Overview and deployed resources
+## Overview
 
 An Azure Function Premium plan with virtual network integration enabled allows the Azure Function to utilizes resources within the virtual network.
 
-The following resources are deployed as part of the solution:
 
 + **Microsoft.Network/virtualNetworks**: The virtual network for which to integrate, and one subnet to which the function app plan is delegated with Microsoft.Web/serverFarms.
 
