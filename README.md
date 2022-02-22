@@ -1,6 +1,6 @@
 # azure-function-premium-template
 
-This template deploys an Azure Function Premium plan and integrates with vnet located in a distinct resource group
+ARM Template for an Azure Function Premium plan and integrates with vnet located in a distinct resource group 
 
 ## Overview
 
