@@ -7,7 +7,7 @@ ARM Template for an Azure Function Premium plan and integrates with vnet located
 An Azure Function Premium plan with virtual network integration enabled allows the Azure Function to utilizes resources within the virtual network.
 
 
-+ **Microsoft.Network/virtualNetworks**: The virtual network for which to integrate, and one subnet to which the function app plan is delegated with Microsoft.Web/serverFarms.
++ **Note**: The subnet to which the function wil be integrated needs to be delegated with Microsoft.Web/serverFarms.
 
 ### Azure Function Premium Plan
 
